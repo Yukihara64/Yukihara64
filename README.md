@@ -19,10 +19,10 @@ When I'm not studying or coding for university classes, I spend my time experime
 ### Projects & Portfolio
 
 #### Cloud Engineering & Automation
-* **[terraform-aws-enterprise-eks](./01-terraform-aws-enterprise-eks)**: AWS EKS cluster deployment automated with Terraform and OpenTofu. Configured with Spot instance scaling to optimize cloud computing costs and integrated with static security scanners (Checkov and tfsec).
-* **[gitops-argocd-observability](./02-gitops-argocd-observability)**: Kubernetes continuous delivery setup using ArgoCD (App-of-Apps pattern), paired with Prometheus and Grafana for monitoring cluster performance and container logs.
-* **[devsecops-cicd-pipeline](./03-devsecops-cicd-pipeline-showcase)**: Python FastAPI web service backed by an automated GitHub Actions CI/CD workflow that runs code linting, multi-arch Docker image builds (md64/rm64), vulnerability scanning with Trivy, and Software Bill of Materials (SBOM) generation.
-* **[devops-interactive-portfolio](./04-interactive-web-portfolio)**: Web portfolio built with HTML, CSS, and JavaScript, featuring an interactive terminal CLI simulator and cluster telemetry widgets.
+* **[terraform-aws-enterprise-eks](https://github.com/Yukihara64/terraform-aws-enterprise-eks)**: AWS EKS cluster deployment automated with Terraform and OpenTofu. Configured with Spot instance scaling to optimize cloud computing costs and integrated with static security scanners (Checkov and tfsec).
+* **[gitops-argocd-observability](https://github.com/Yukihara64/gitops-argocd-observability)**: Kubernetes continuous delivery setup using ArgoCD (App-of-Apps pattern), paired with Prometheus and Grafana for monitoring cluster performance and container logs.
+* **[devsecops-cicd-pipeline](https://github.com/Yukihara64/devsecops-cicd-pipeline-showcase)**: Python FastAPI web service backed by an automated GitHub Actions CI/CD workflow that runs code linting, multi-arch Docker image builds (`amd64`/`arm64`), vulnerability scanning with Trivy, and Software Bill of Materials (SBOM) generation.
+* **[devops-interactive-portfolio](https://github.com/Yukihara64/devops-interactive-portfolio)**: Web portfolio built with HTML, CSS, and JavaScript, featuring an interactive terminal CLI simulator and cluster telemetry widgets ([Live Website](https://yukihara64.github.io/devops-interactive-portfolio/)).
 
 #### Game Development & Graphics
 * **Tactical Hardcore FPS**: Single-player shooter project developed in Unity, focusing on tactical gameplay mechanics, custom shaders, and optimized forward rendering.
