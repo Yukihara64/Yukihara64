@@ -46,18 +46,7 @@ I have been building a hands-on portfolio of cloud engineering and automation pr
 
 ---
 
-### 📈 GitHub Stats
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Yukihara64&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Yukihara64&theme=tokyonight&hide_border=true&background=0D1117" width="48%" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yukihara64&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" width="60%" />
-</div>
 
 ---
 <div align="center">
