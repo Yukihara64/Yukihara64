@@ -45,10 +45,6 @@ I have been building a hands-on portfolio of cloud engineering and automation pr
 **🔐 Security & Networking**: REST APIs, CPaaS integrations, ISC2 Cybersecurity practices
 
 ---
-
-
-
----
 <div align="center">
   <sub>🇵🇾 Made with passion in Asunción, Paraguay • Always learning and building</sub>
 </div>
