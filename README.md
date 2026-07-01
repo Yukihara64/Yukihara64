@@ -3,6 +3,8 @@
 
 Based in Asunción, Paraguay. Currently studying Computer Engineering while building projects in DevOps automation, cloud infrastructure, and game development.
 
+[LinkedIn Profile](https://www.linkedin.com/in/danielguanes/) | [Portfolio Website](https://yukihara64.github.io/devops-interactive-portfolio/) | [Email](mailto:ebrizuela1945@hotmail.com)
+
 ---
 
 ## About Me
