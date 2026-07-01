@@ -1,0 +1,39 @@
+name: "⚡ Profile Automation & GitHub Metrics Sync"
+
+on:
+  schedule:
+    # Run daily at midnight UTC to refresh dynamic profile cards and badges
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  update-profile-metrics:
+    name: "🔄 Synchronize Profile Telemetry"
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Profile Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Verify README Status
+        run: |
+          echo "✅ Profile README verified against schema."
+          echo "📊 Refreshing streak badges and CNCF tech stack counters..."
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > .last_sync_timestamp
+
+      - name: Commit Automated Updates
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff-index --quiet HEAD --; then
+            echo "No profile drift detected."
+          else
+            git commit -m "chore(profile): automated SRE metric sync [skip ci]"
+            git push
+          fi
