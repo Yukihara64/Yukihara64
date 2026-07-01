@@ -1,50 +1,41 @@
-<div align="center">
+# Yuki Tsukihara
+**Computer Engineering Student | Cloud & Infrastructure Builder | Game Developer**
 
-# 👋 こんにちは! I'm Yuki
-### *Computer Engineering Student • DevOps & Systems Builder • Game Dev*
-
-`(>w<) coding at 3am again... probably drinking too much mate 🧉`
-
-<a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a> <a href="mailto:ebrizuela1945@hotmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-
-</div>
+Based in Asunción, Paraguay. Currently studying Computer Engineering while building projects in DevOps automation, cloud infrastructure, and game development.
 
 ---
 
-### 🌸 About Me
-I'm a Computer Engineering student from Asunción, Paraguay 🇵🇾 with a passion for both cloud automation and low-level game systems. By day (or late at night), I'm either designing CI/CD pipelines and infrastructure as code, or building a tactical hardcore FPS game in Unity while wrestling with custom shaders and database engines.
+### About Me
+I'm interested in understanding systems from the ground up—whether that means automating cloud deployments with Terraform and Kubernetes, setting up Linux environments, or developing tactical FPS games in Unity using custom shaders and C#.
 
-I love understanding how things work under the hood—whether that means scripting Kubernetes GitOps deployments, configuring Linux servers, or optimizing 3D rendering pipelines.
+When I'm not studying or coding for university classes, I spend my time experimenting with CI/CD pipelines, database optimization, and 3D game mechanics.
 
-- 🔭 **Currently Building**: A tactical hardcore FPS set in Paraguay (Unity forward rendering) & automated DevOps cloud environments (AWS, EKS, Terraform, ArgoCD).
-- 🛠️ **What I Enjoy**: Systems architecture, CI/CD automation, PostgreSQL database optimization, and tactical NPC game AI.
-- 🎓 **Background**: Studying Computer Engineering at Universidad Nihon Gakko • ISC2 Cybersecurity Candidate • PostgreSQL Certified • Trilingual (English, Español, 日本語).
-
----
-
-### 💻 What I'm Working On
-
-#### ☁️ Cloud & DevOps Portfolio
-I have been building a hands-on portfolio of cloud engineering and automation projects:
-* **[terraform-aws-enterprise-eks](./01-terraform-aws-enterprise-eks)**: A complete AWS EKS cluster deployment built with modular Terraform/OpenTofu, featuring Spot instance auto-scaling to keep costs low and automated security vulnerability checks (Checkov/tfsec).
-* **[gitops-argocd-observability](./02-gitops-argocd-observability)**: A Kubernetes GitOps deployment using ArgoCD (App-of-Apps pattern) paired with Prometheus and Grafana dashboards for monitoring cluster metrics and service health.
-* **[devsecops-cicd-pipeline](./03-devsecops-cicd-pipeline-showcase)**: A containerized Python FastAPI service with an automated GitHub Actions CI/CD pipeline that runs code linting, multi-arch Docker builds (`amd64`/`arm64`), Trivy container scanning, and SBOM generation.
-* **[devops-interactive-portfolio](./04-interactive-web-portfolio)**: An interactive web portfolio built with pure HTML/CSS/JS featuring a terminal CLI simulator and live cluster telemetry widgets.
-
-#### 🎮 Game Dev & 3D Modeling
-* **Tactical Hardcore FPS**: Single-player shooter set in Paraguay, built in Unity with custom shader graphs and forward rendering.
-* **Organic 3D Modeling**: Skilled in Blender and ZBrush for character and asset creation (MA completed in 2023).
+- **Current Focus**: Cloud infrastructure automation (AWS, EKS, Terraform) and Unity game development.
+- **Technical Interests**: CI/CD automation, Kubernetes GitOps, PostgreSQL optimization, and game AI.
+- **Background**: Computer Engineering student at Universidad Nihon Gakko | PostgreSQL Certified | ISC2 Cybersecurity Candidate | Trilingual (Spanish, English, Japanese).
 
 ---
 
-### 🛠️ Tech Stack & Tools
+### Projects & Portfolio
 
-**☁️ DevOps & Cloud**: AWS (EKS, VPC, RDS, IAM), Docker, Kubernetes, Terraform, ArgoCD, Helm, GitHub Actions, Prometheus, Grafana
-**💻 Languages & Databases**: C#, Python, Bash, SQL, PostgreSQL, MySQL, SQL Server
-**🎮 Game Dev & Systems**: Unity, Blender, Unreal Engine, Linux, Windows Server, VMware
-**🔐 Security & Networking**: REST APIs, CPaaS integrations, ISC2 Cybersecurity practices
+#### Cloud Engineering & Automation
+* **[terraform-aws-enterprise-eks](./01-terraform-aws-enterprise-eks)**: AWS EKS cluster deployment automated with Terraform and OpenTofu. Configured with Spot instance scaling to optimize cloud computing costs and integrated with static security scanners (Checkov and tfsec).
+* **[gitops-argocd-observability](./02-gitops-argocd-observability)**: Kubernetes continuous delivery setup using ArgoCD (App-of-Apps pattern), paired with Prometheus and Grafana for monitoring cluster performance and container logs.
+* **[devsecops-cicd-pipeline](./03-devsecops-cicd-pipeline-showcase)**: Python FastAPI web service backed by an automated GitHub Actions CI/CD workflow that runs code linting, multi-arch Docker image builds (md64/rm64), vulnerability scanning with Trivy, and Software Bill of Materials (SBOM) generation.
+* **[devops-interactive-portfolio](./04-interactive-web-portfolio)**: Web portfolio built with HTML, CSS, and JavaScript, featuring an interactive terminal CLI simulator and cluster telemetry widgets.
+
+#### Game Development & Graphics
+* **Tactical Hardcore FPS**: Single-player shooter project developed in Unity, focusing on tactical gameplay mechanics, custom shaders, and optimized forward rendering.
+* **3D Asset Creation**: Experienced in Blender and ZBrush for character modeling and asset design.
 
 ---
-<div align="center">
-  <sub>🇵🇾 Made with passion in Asunción, Paraguay • Always learning and building</sub>
-</div>
+
+### Technical Skills
+
+* **Cloud & Infrastructure**: AWS (EKS, VPC, RDS, IAM), Docker, Kubernetes, Terraform, OpenTofu, ArgoCD, Helm
+* **CI/CD & Monitoring**: GitHub Actions, Prometheus, Grafana, Trivy, Checkov
+* **Languages & Databases**: C#, Python, Bash, SQL, PostgreSQL, MySQL, SQL Server
+* **Game Development & OS**: Unity, Blender, Linux, Windows Server
+
+---
+Asunción, Paraguay
